@@ -1,0 +1,63 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.new-figure {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.graph .labels.x-labels, .graph .labels.y-labels {
+    text-anchor: middle;
+}
+
+.graph {
+    height: 750px;
+    width: 950px;
+    background: #9E9E9E;
+}
+
+.graph .grid {
+    stroke: #FAFAFA;
+    stroke-dasharray: 0;
+    stroke-width: 1;
+}
+
+.labels {
+    font-size: 12px;
+}
+
+.label-title {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 14px;
+    fill: black;
+}
+
+.data {
+    fill: white;
+    stroke-width: 1;
+}
+
+.data-green {
+    fill: green;
+}
+
+.data-yellow {
+    fill: yellow;
+}
+
+.data-red {
+    fill: red;
+}
+
+.data rect:hover {
+    fill: white;
+    cursor: hand;
+    transition: 1s;
+}

@@ -1,0 +1,223 @@
+body {
+    max-width: 1600px;
+}
+
+.inline-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.main-header {
+    margin-bottom: 24px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bottom-header-nav {
+    font-size: large;
+    padding: 2%;
+}
+
+.main-section {
+    outline: 9px solid white;
+    flex-direction: column;
+}
+
+.promo-title {
+    margin: 9px;
+    font-size: 0.75em;
+    background: #2b2c27;
+    opacity: 0.75;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+
+.promo-title header {
+    font-size: 1.5em;
+    width: 40%;
+}
+
+.wrapper-header {
+    padding: 0 22vw;
+}
+
+.header-container span {
+    margin: 0 5px;
+}
+
+.main-section-block-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promo-image-wrapper {
+    position: relative;
+}
+
+.promo-title {
+    position: absolute;
+    bottom: 0;
+}
+
+.promo-image {
+    width: 102%;
+}
+
+. {
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-header-nav {
+    position: relative;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(248, 80, 50, 1) 0%, rgba(241, 111, 92, 1) 50%, rgba(246, 41, 12, 1) 51%, rgba(240, 47, 23, 1) 71%, rgba(231, 56, 39, 1) 100%);
+}
+
+.left-main-section-nav {
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.center-section {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-section-nav {
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.main-section-items {
+    align-items: stretch;
+}
+
+.items {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-section-items-filter-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section-nav {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 3%;
+}
+
+.main-section-nav header {
+
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.main-footer {
+    margin-top: 24px;
+}
+
+.search input {
+    border-radius: 40px;
+    background-image: url("img/Рабочий-Экспорт_0000s_0001_GO.png");
+    background-repeat: no-repeat;
+    padding-left: 2%;
+    height: 2vw;
+    width: 15vw;
+
+    background: linear-gradient(to bottom, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
+    background-position: 130px;
+    outline: none;
+}
+
+.background-dark-red {
+    background: rgb(142, 19, 3);
+}
+
+.search input ::-webkit-input-placeholder {
+    color: white;
+}
+
+.bag-button-nav {
+    background: rgb(178, 14, 0);
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+.items span {
+    text-align: center;
+    max-width: 147px;
+}
+
+.featured-items {
+    justify-content: center;
+}
+
+.text-color-white {
+    color: white;
+}
+
+.text-color-grey {
+    color: rgb(67, 67, 67);
+}
+
+.text-color-light-yellow {
+    color: rgb(255, 198, 0);
+}
+
+.text-color-light-red, .cost {
+    color: rgb(178, 14, 0);
+}
+
+.background-dark-brown {
+    background: rgb(26, 4, 1);
+}
+
+.main-section-items > header {
+    font-size: 1.5em;
+}
+
+.footer-nav {
+    background: #971503;
+}
+
+.footer-nav {
+    align-items: flex-start;
+    padding-bottom: 3%;
+}
