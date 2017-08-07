@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bar chart</title>
+    <link type="text/css" href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div>
+    <figure class="new-figure">
+        <figcaption><h4>Bar chart of array values</h4></figcaption>
+        <svg class="graph">
+
+            <title id="title">A bar chart</title>
+            <g class="grid y-grid" id="yGrid">
+                <line x1="100" x2="100" y1="50" y2="650"></line>
+                <line x1="100" x2="900" y1="450" y2="450"></line>
+                <line x1="100" x2="900" y1="250" y2="250"></line>
+                <line x1="100" x2="900" y1="50" y2="50"></line>
+            </g>
+            <g class="grid x-grid" id="xGrid">
+                <line x1="100" x2="900" y1="650" y2="650"></line>
+            </g>
+
+
+            <g class="labels x-labels">
+                <text x="500" y="700" class="label-title">Index</text>
+            </g>
+            <g class="labels y-labels">
+                <text x="80" y="50"></text>
+                <text x="80" y="250"></text>
+                <text x="80" y="450"></text>
+                <text x="80" y="650"></text>
+                <text x="50" y="350" style="writing-mode: tb" class="label-title">Value</text>
+            </g>
+
+            <g class="data">
+
+            </g>
+
+        </svg>
+    </figure>
+</div>
+<noscript>Young man, please, enable javascript in your browser!!!</noscript>
+<script src="script.js"></script>
+</body>
+</html>
